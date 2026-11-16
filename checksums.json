@@ -1,0 +1,21 @@
+{
+  "release": "2026.11.16",
+  "base_runtime_version": "2.7.0",
+  "prepared_additional_stages": 149,
+  "assets": [
+    {
+      "name": "battle-ui-assets.zip",
+      "files": 3946,
+      "bytes": 206122703,
+      "uncompressed_bytes": 207097551,
+      "sha256": "a3f112b221d3caa2128d30d318aec960a8c189640b448b6c3ef9aa0c35a79d40"
+    },
+    {
+      "name": "battle-runtime-data.zip",
+      "files": 928,
+      "bytes": 168852030,
+      "uncompressed_bytes": 545077546,
+      "sha256": "9048c2cf0b98caceb5e4bf110c2f4a4bf93eb75ea03cc4df25f952292dc0286f"
+    }
+  ]
+}
