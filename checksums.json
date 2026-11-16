@@ -16,6 +16,13 @@
       "bytes": 168852030,
       "uncompressed_bytes": 545077546,
       "sha256": "9048c2cf0b98caceb5e4bf110c2f4a4bf93eb75ea03cc4df25f952292dc0286f"
+    },
+    {
+      "name": "gget-unit-portraits.zip",
+      "files": 1535,
+      "bytes": 650281596,
+      "uncompressed_bytes": 649913276,
+      "sha256": "df506d98e0e58e2ac6abbb517a2f03b17b13e912ed68e0a5953606112fd73c93"
     }
   ]
 }
