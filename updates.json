@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "revision": 2,
+  "revision": 3,
   "program": {
-    "commit": "522b04bf400b1a2656a337b8f365d1b8867bb364",
+    "commit": "9291a28200be494449ddaef8dd0ab4e2d83afa60",
     "files": {
       "battle_paths.py": "4f616575d7b09ad9c95d027c23b9f2aa6032a7e53a1b668826a3a554bc968c33",
       "original_battle_reuse/android_bridge.py": "8d9c4fae47a682a56d4f9daf7aaad0e93789c0c6762b8afbb75c35b164f0abab",
@@ -35,7 +35,7 @@
       "original_battle_reuse/kernel_init.c": "3d3fe85106577dadc27a5558b773fe3c1b4e60cef1ae0f246d0dd18e248a02fd",
       "original_battle_reuse/kernel_runner.py": "22057a5c0bcb5bc5527e437f26280e48dbfc0bd21eb510f85059b42f9e19b3da",
       "original_battle_reuse/prepare_android.py": "540e65ef8fe90bac1f5bf60eb813571adb2fa4d022eed224a7e8652a62b5a94a",
-      "original_battle_reuse/prepare_demo_formation.py": "42c020115fc3dc598f6d3a88c8d705b7917b2a4ac4e1ef1f4d96ed35e30af424",
+      "original_battle_reuse/prepare_demo_formation.py": "ae3b6588ebefe5cd4fb7c720e5959a1260f1efdcc87604cae53b8dd762e5d5a0",
       "original_battle_reuse/prepare_kernel.py": "96a54fe4c5b90ac5d379e5149bb5073b45dbc69bf22914d6f165c5872740e3e8",
       "original_battle_reuse/prepare_player.py": "e6a651f15ee2dca3677fa4e679b7d4afb050a91ccc6676ac385c34840f186549",
       "original_battle_reuse/prepare_stage.py": "3c619ce13996a7f1fb4db60898e270d531f24fe716a2734c4e3a5c7a7573ae6e",
@@ -45,21 +45,20 @@
       "original_battle_reuse/test_android_bridge.py": "df78a64528084af7bdb94929d3a006c401c90500c20cdaf2c74cabbe082055de",
       "original_battle_reuse/test_battle_save.py": "b68f6b57f09591068dcc52b99af135a2815c5ba7e6252efc1155e67d21dcc3ab",
       "original_battle_reuse/test_formation.py": "24b3ec9ebad3415dc8a4df34e9716ad0b6ee29caea95e5a069144d2840343d97",
+      "original_battle_reuse/update_release_art.py": "9f4cad853c7dbc1c9df30b1374da2a0a13d50bb7c7ddbe3e5bb4793dcf477e24",
       "requirements-runtime.txt": "668de20550427c4726396b6e4526a505d8077db6716870505ee9e69805dae971",
       "tools/analysis/analyze_runtime_metadata.py": "d533db02f239c49efda05e813238ae05e9019bca6fc47f3651856614158f6d5b",
       "tools/analysis/battle_native.py": "723449f7e7daa4047f69383bb94fe510e59bf60fb00cc67d219fb50cef733718",
       "tools/analysis/compare_game_backups.py": "473587f61ca2fe0d86582224e58a191f3de984e5034584d20a3a9241e307830f",
       "tools/analysis/resource_snapshot_formats.py": "ad7a6f9316c7442549e60014848ab4e58ae4f15e9c34783f69c4d6ba9c1232bf",
-      "tools/extraction/decode_octo_koma.py": "1ef2dff939b65476c48aa2cf81e9d0e215c0ae53fcd1af46fe4f0ce97f46158d"
+      "tools/check_release_art.py": "2c9f617338038c92d5f2eb9ac6538742c43750a592f057f5fa417a058a5347bf",
+      "tools/extraction/decode_octo_koma.py": "1ef2dff939b65476c48aa2cf81e9d0e215c0ae53fcd1af46fe4f0ce97f46158d",
+      "tools/package_release_art.py": "b7f57b01c03b4c06fabf9125cdc269116bd37098672c311a04ab552a72327928"
     }
   },
   "resources": {
-    "tag": "2026.11.16-koma.1",
+    "tag": "2026.11.16-art.1",
     "files": {
-      "original_battle_reuse/artifacts/idle_koma/unit_index.json": {
-        "asset": "koma-idle_koma-unit_index.json",
-        "sha256": "aa6e17598e0d40386a26df9124e400c5d9c419ad2d6d7947ac31675e1f4180ed"
-      },
       "original_battle_reuse/artifacts/idle_koma/g0010u00400/front.png": {
         "asset": "koma-g0010u00400-front.png",
         "sha256": "cac9dcceedc468a8a40a50ab5ae541496acbf2f7ff398d758a768a7db7880c46"
@@ -91,6 +90,10 @@
       "original_battle_reuse/artifacts/idle_koma/g0010u00800/right.png": {
         "asset": "koma-g0010u00800-right.png",
         "sha256": "93d575d7ab3c5877d4093a1a17dc222acb313d1a3e0335ecab43924bdb544a97"
+      },
+      "original_battle_reuse/artifacts/battle_ui_assets/art-update.json": {
+        "asset": "art-update.json",
+        "sha256": "ad763e8a9475d585f1eae127bd9671b3c68ee5c03ecb613248b6b857bdf52d0e"
       }
     }
   }

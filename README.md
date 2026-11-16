@@ -29,4 +29,6 @@ python -B original_battle_reuse/battle_ui.py
 
 战斗模拟 v0.1.2 起，`setup.cmd` 会检查 [updates.json](updates.json)，按清单里的 SHA-256 只下载本机缺少或发生变化的文件。第一批更新包含棋子索引及核心战机和渣古Ⅰ的棋子图。[棋子更新 Release](https://github.com/Torfaen/gget-battle-simulator-resources/releases/tag/2026.11.16-koma.1)
 
+素材覆盖更新新增 1,055 张驾驶员立绘、88 张支援人员立绘和 618 套四方向棋子。v0.1.2 启动器会下载这批增量包，`coverage-report.json` 记录打包前校验结果和原版资源索引缺项。[素材覆盖更新 Release](https://github.com/Torfaen/gget-battle-simulator-resources/releases/tag/2026.11.16-art.1)
+
 发布更新时，先推送 `program.commit` 对应的程序提交，再上传 `resources.tag` 下的资源文件。清单的 `program.files` 列出该版本的程序文件及哈希，`resources.files` 列出相对于基础资源包的累计更新。资源条目记录本地相对路径、Release 附件名和哈希。验证所有链接和哈希后，增加 `revision` 并提交清单。
