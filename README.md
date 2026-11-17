@@ -33,4 +33,6 @@ python -B original_battle_reuse/battle_ui.py
 
 11 月 17 日素材更新对应 Octo 资源索引 3074。启动更新清单第 4 版新增 24 张机体立绘、14 张驾驶员立绘、1 张支援人员立绘，并新增或更新 27 套四方向棋子。[11 月 17 日素材更新 Release](https://github.com/Torfaen/gget-battle-simulator-resources/releases/tag/2026.11.17-art.1)
 
+启动更新清单第 6 版同步 Octo 3074 的 23 台可编队机体，含海德拉高达和海德拉高达(EX)，并增加永恒之路 EX 32「独立世界观系列 2」。运行 `setup.cmd` 安装编队主表、名称和关卡数据。[编队和关卡更新 Release](https://github.com/Torfaen/gget-battle-simulator-resources/releases/tag/2026.11.17-roster.1)
+
 发布更新时，先推送 `program.commit` 对应的程序提交，再上传 `resources.tag` 下的资源文件。清单的 `program.files` 列出该版本的程序文件及哈希，`resources.files` 列出相对于基础资源包的累计更新。资源条目记录本地相对路径、Release 附件名和哈希。验证所有链接和哈希后，增加 `revision` 并提交清单。
