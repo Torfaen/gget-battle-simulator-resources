@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "revision": 6,
+  "revision": 7,
   "program": {
-    "commit": "d5fbfdeeb9b8dcddedf78df15f174e1c80a11e25",
+    "commit": "e5c6dae285a5ecc76a6ffc0cbdf2054e4e264b17",
     "files": {
       "battle_paths.py": "4f616575d7b09ad9c95d027c23b9f2aa6032a7e53a1b668826a3a554bc968c33",
       "original_battle_reuse/android_bridge.py": "8d9c4fae47a682a56d4f9daf7aaad0e93789c0c6762b8afbb75c35b164f0abab",
@@ -45,7 +45,7 @@
       "original_battle_reuse/test_android_bridge.py": "df78a64528084af7bdb94929d3a006c401c90500c20cdaf2c74cabbe082055de",
       "original_battle_reuse/test_battle_save.py": "b68f6b57f09591068dcc52b99af135a2815c5ba7e6252efc1155e67d21dcc3ab",
       "original_battle_reuse/test_formation.py": "fb9212ada95e904f2c340508accc53a435a088d874af82bb89b90320675d3c89",
-      "original_battle_reuse/update_release_art.py": "ab9c91db23235d67a35fc0590105ab3191f160e1b000ebf8bf855bc2b2bfd6fd",
+      "original_battle_reuse/update_release_art.py": "d52eca4d396945b283601d688ed2aaf3aa5dc838267f7f226e85aeea7488ef36",
       "requirements-runtime.txt": "668de20550427c4726396b6e4526a505d8077db6716870505ee9e69805dae971",
       "tools/analysis/analyze_runtime_metadata.py": "d533db02f239c49efda05e813238ae05e9019bca6fc47f3651856614158f6d5b",
       "tools/analysis/battle_native.py": "723449f7e7daa4047f69383bb94fe510e59bf60fb00cc67d219fb50cef733718",
@@ -57,143 +57,15 @@
     }
   },
   "resources": {
-    "tag": "2026.11.17-roster.1",
+    "tag": "2026.11.17-roster.2",
     "files": {
-      "original_battle_reuse/artifacts/idle_koma/g0010u00400/front.png": {
-        "asset": "koma-g0010u00400-front.png",
-        "sha256": "cac9dcceedc468a8a40a50ab5ae541496acbf2f7ff398d758a768a7db7880c46"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00400/back.png": {
-        "asset": "koma-g0010u00400-back.png",
-        "sha256": "681735b9b8abbc135573c503d1d4e038e70a8fc00775df87927f7f8f17cb32a9"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00400/left.png": {
-        "asset": "koma-g0010u00400-left.png",
-        "sha256": "9961764bae9e9efd403ecc49a58a48a573538ce1b3cd33b5edfb9efb0a4e8a03"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00400/right.png": {
-        "asset": "koma-g0010u00400-right.png",
-        "sha256": "11b337320544af10546deaaaef177867aed0da3505335e45ab5e26d7580980cf"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00800/front.png": {
-        "asset": "koma-g0010u00800-front.png",
-        "sha256": "6cb4d14a19b8eea122cb2a6abd98fab8485669fad6fc840e818d37deb1ffefcb"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00800/back.png": {
-        "asset": "koma-g0010u00800-back.png",
-        "sha256": "4a0711e7ae10aace5298e93f3bb1c5054dbef3fb3db9f4f96f5f0c6b3a352ba9"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00800/left.png": {
-        "asset": "koma-g0010u00800-left.png",
-        "sha256": "85489881deb5e7f616a00ba91d789e0e99fa7f0cc9c3229587324658352d9f9c"
-      },
-      "original_battle_reuse/artifacts/idle_koma/g0010u00800/right.png": {
-        "asset": "koma-g0010u00800-right.png",
-        "sha256": "93d575d7ab3c5877d4093a1a17dc222acb313d1a3e0335ecab43924bdb544a97"
-      },
       "original_battle_reuse/artifacts/battle_ui_assets/art-update.json": {
         "asset": "art-update.json",
         "sha256": "54defa027118cc00f619633cd01ae2d7e06709fbccb1d3bd1b73a207766bb470"
       },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00200.png": {
-        "asset": "ub_g2170u00200.png",
-        "sha256": "33a64ee31fa4195f559bd2179f0f4a6b43ae598fb114d52f60f539bbb9e84b62"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00400.png": {
-        "asset": "ub_g2170u00400.png",
-        "sha256": "09b288c520c92e9c80101ac4e57aab25ecb27bd9906bb5aac44ee5aa0891d296"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00600.png": {
-        "asset": "ub_g2170u00600.png",
-        "sha256": "06bd06d2129e819cd9f2d93d4f0a4761c19e272534ea23f41c1ce8be17aa0cb8"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00650.png": {
-        "asset": "ub_g2170u00650.png",
-        "sha256": "4e33cb777eff083aeac39cf5bb32a7abd1c142e5ec4747317ea747a6dda8003f"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00700.png": {
-        "asset": "ub_g2170u00700.png",
-        "sha256": "4735c1c9e51e057d3524af384c4bc7e7c236af91d751deee975093b6099e43ee"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00800.png": {
-        "asset": "ub_g2170u00800.png",
-        "sha256": "4b07b534cfcc38546d72f1ab19f1fef528ff00c38bab78632403315e5c73bca8"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u00900.png": {
-        "asset": "ub_g2170u00900.png",
-        "sha256": "f5cc6f4c44692bf1ad233cc8c56af4fcc0ad656eda3f970df8aebcc1753a99a2"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01000.png": {
-        "asset": "ub_g2170u01000.png",
-        "sha256": "cec91248c61722c11a0aecf2bcfeaa1cedb394178ebf12bdeb66db2faddf0b1e"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01100.png": {
-        "asset": "ub_g2170u01100.png",
-        "sha256": "bb5880df2742ecbdc7ca3840160d6f96dcc65316acde8d7c83e37e243336a0c9"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01200.png": {
-        "asset": "ub_g2170u01200.png",
-        "sha256": "30c4cb4a15925bfb9a21acbea7ac62e5ad104b380f9e92df1cc76c941645ac20"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01300.png": {
-        "asset": "ub_g2170u01300.png",
-        "sha256": "db1ba3b7c65e2b932c69de917744c4ade13aac8e46ac48d57af919674e3a0175"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01400.png": {
-        "asset": "ub_g2170u01400.png",
-        "sha256": "bbd82fa0071b11ae8edc8711fdc20e906d3b5c4a61342629ae019624e44c2026"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01500.png": {
-        "asset": "ub_g2170u01500.png",
-        "sha256": "2bc02d472e82b0b021adeb63d3ee61cd4f59d35bb7661f09a580d4e266f3ab70"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01600.png": {
-        "asset": "ub_g2170u01600.png",
-        "sha256": "45e28f7011a60d34ab963965f50d9f25369d9bd4768b8609e969129e7ce0842d"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01700.png": {
-        "asset": "ub_g2170u01700.png",
-        "sha256": "8ae704c2b2886065fc2a910e006860be88cb3f05639702ed5bd8d045a67594bb"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01800.png": {
-        "asset": "ub_g2170u01800.png",
-        "sha256": "e8d79d378452bddd76dbfc2004ac93354f1474bd238b9fe09970fac751baa008"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u01900.png": {
-        "asset": "ub_g2170u01900.png",
-        "sha256": "547b00f058cfd0a1f03ef783da63dc446f0141cc04e6856feac7ebd290e005c0"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u02000.png": {
-        "asset": "ub_g2170u02000.png",
-        "sha256": "ddd21c8b23cb1c1308b2faab2b1d2dc83b148be5257aa1333523b93f583c83ce"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u02100.png": {
-        "asset": "ub_g2170u02100.png",
-        "sha256": "c3c4c685c4f1c3aecaf93961117fdd06e62d7676653e4aad0c7c72c83198a9af"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u02150.png": {
-        "asset": "ub_g2170u02150.png",
-        "sha256": "124c730ccef4331559b3985290003d286071a5b42fb8039af8047bbbcacb9c0e"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u02200.png": {
-        "asset": "ub_g2170u02200.png",
-        "sha256": "706a0721227f701db340598501ff834876a559f8700ff9a6bf8b358708659e77"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u02300.png": {
-        "asset": "ub_g2170u02300.png",
-        "sha256": "f5a44edfdcadfabb87b82f41b537da408d3fc292149a9a67fdc6257d7039ee4f"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170u02400.png": {
-        "asset": "ub_g2170u02400.png",
-        "sha256": "fb679c1317b4f99f9d14869ed958e3b401126e6affc3ddc731513412eeb98eb7"
-      },
-      "original_battle_reuse/artifacts/battle_ui_assets/unit_portraits/ub_g2170w00100.png": {
-        "asset": "ub_g2170w00100.png",
-        "sha256": "0d97fdd1c951358a293a263da3e3d0fd063c0ab50482ff1b7528446fea8caf12"
-      },
       "original_battle_reuse/artifacts/battle_ui_assets/roster-update.json": {
         "asset": "roster-update.json",
-        "sha256": "64715a8734a8d038b2f227bc5f5bc004b81150bb3359eadcf43f9787b3fc4f16"
+        "sha256": "82aa5121c1cdfe41ce25f24e27da2f32cdd9ad364ee9fd35d4450221c59417dd"
       }
     }
   }
