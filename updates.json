@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "revision": 9,
+  "revision": 10,
   "program": {
-    "commit": "f65eb071ac630e1ed0ff787b6d820c9fed8125be",
+    "commit": "6277a9f8b95a63a37e3510e170787a563f0d2725",
     "files": {
       "battle_paths.py": "4f616575d7b09ad9c95d027c23b9f2aa6032a7e53a1b668826a3a554bc968c33",
       "original_battle_reuse/android_bridge.py": "8d9c4fae47a682a56d4f9daf7aaad0e93789c0c6762b8afbb75c35b164f0abab",
@@ -24,6 +24,7 @@
       "original_battle_reuse/battle_camera.py": "cf4a15ad74a85d6f7f6aab9ba92a4782730a3386eccf0fd95b136514d50faf8f",
       "original_battle_reuse/battle_save.py": "f467d5460ac2deb3ca7028945e14ce77650da17a3b72191c5003df5749cbe739",
       "original_battle_reuse/battle_ui.py": "b0409b41a2d8493ee673c35f91e72f9c8afccb3ae11b15c93e40ba735c7827f2",
+      "original_battle_reuse/download_progress.py": "1dc3e523957425835bf47c8bc161059a6b3cc2e26ae8b536dffddca18df8a0f5",
       "original_battle_reuse/export_mumu_snapshot.py": "159a8e8e06c2ed7f0267ce92dc6b2e5fe1050ae2b685378b7cf18ec56870446e",
       "original_battle_reuse/extract_battle_map.py": "94e27fd123287efd00bd4886a4bd0ce86fb2745761aa4d656573d31864319c97",
       "original_battle_reuse/extract_battle_ui_assets.py": "08d844e240f7c378b72e46c117c030ba34e4d334e9fefb8c2785e4285598dd90",
@@ -36,7 +37,7 @@
       "original_battle_reuse/kernel_runner.py": "185931431439527d54063276cfa416a090fe0bbc4dbc7b3628e33388b64e6743",
       "original_battle_reuse/prepare_android.py": "540e65ef8fe90bac1f5bf60eb813571adb2fa4d022eed224a7e8652a62b5a94a",
       "original_battle_reuse/prepare_demo_formation.py": "ae3b6588ebefe5cd4fb7c720e5959a1260f1efdcc87604cae53b8dd762e5d5a0",
-      "original_battle_reuse/prepare_kernel.py": "96a54fe4c5b90ac5d379e5149bb5073b45dbc69bf22914d6f165c5872740e3e8",
+      "original_battle_reuse/prepare_kernel.py": "28b2dc3f9eaab5f4973bcaea42300c01af8e4b33d093a79d7a4520699bce48cf",
       "original_battle_reuse/prepare_player.py": "e6a651f15ee2dca3677fa4e679b7d4afb050a91ccc6676ac385c34840f186549",
       "original_battle_reuse/prepare_stage.py": "22fbece2d8e879405ac639df39b72ca2b1f70bd5becfe3a6bd9b1457b2e746f5",
       "original_battle_reuse/runtime_version.py": "957ce81e0c2d58b46a5e90ffc7b15f4c5e604b90eb869fb708d0f7b42068aced",
@@ -45,7 +46,7 @@
       "original_battle_reuse/test_android_bridge.py": "df78a64528084af7bdb94929d3a006c401c90500c20cdaf2c74cabbe082055de",
       "original_battle_reuse/test_battle_save.py": "b68f6b57f09591068dcc52b99af135a2815c5ba7e6252efc1155e67d21dcc3ab",
       "original_battle_reuse/test_formation.py": "5f13b30d9368f63c93af42ed5b09798dbb450024a2928d9aa513679eba078b02",
-      "original_battle_reuse/update_release_art.py": "d52eca4d396945b283601d688ed2aaf3aa5dc838267f7f226e85aeea7488ef36",
+      "original_battle_reuse/update_release_art.py": "bda0df1dce0eccc174826917ae82328316af554ddfb9886670786e4560da6fcc",
       "requirements-runtime.txt": "668de20550427c4726396b6e4526a505d8077db6716870505ee9e69805dae971",
       "tools/analysis/analyze_runtime_metadata.py": "d533db02f239c49efda05e813238ae05e9019bca6fc47f3651856614158f6d5b",
       "tools/analysis/battle_native.py": "723449f7e7daa4047f69383bb94fe510e59bf60fb00cc67d219fb50cef733718",
